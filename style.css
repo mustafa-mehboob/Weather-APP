@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.header {
+    background-color: rgb(221, 219, 219);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 50%;
+    width: 50%;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.inputTxt {
+    margin: 0;
+    padding: 0;
+    height: 140%;
+    border: none;
+    width: 40%;
+    padding: 0 5%;
+    border-radius: 5px;
+}
+.btn  svg{
+    margin-top: 25%;
+    margin-left: -234%;
+    padding: 0;
+    height: 80%;
+}
+.h2 {
+    font-size: 3vw;
+    margin: 0;
+}
+.h4 {
+    margin:  4% 0 0 0;
+    font-size: 1.5vw;
+}
